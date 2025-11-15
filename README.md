@@ -71,9 +71,7 @@ out = tb.plan_trip(
     preferences={"diet":"veg"}
 )
 out["summary"]
-`
-`
-`
+
 ---
 ## ✍️ Submission Notes  
 
