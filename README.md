@@ -60,6 +60,7 @@ travelbuddy-agent/
 Kaggle Notebook Example:
 ```python
 from travelbuddy import TravelBuddy
+
 tb = TravelBuddy(memory_path="memory/memory_bank.json")
 out = tb.plan_trip(
     user_id="kaggle_user",
@@ -70,8 +71,7 @@ out = tb.plan_trip(
     preferences={"diet":"veg"}
 )
 out["summary"]
- 
----
+
 ---
 ## ✍️ Submission Notes  
 
@@ -81,11 +81,9 @@ out["summary"]
 - This README content can be reused for your Kaggle Writeup.  
 
 ---
+
 ## 📜 License  
-MIT License  
+MIT License
 
-
-
-
-
+---
 
